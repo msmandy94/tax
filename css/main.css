@@ -1,26 +1,4 @@
 
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
-@font-face {
-  font-family: Raleway-SemiBold;
-  src: url('../fonts/raleway/Raleway-SemiBold.ttf'); 
-}
-
-@font-face {
-  font-family: Raleway-Bold;
-  src: url('../fonts/raleway/Raleway-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Raleway-Black;
-  src: url('../fonts/raleway/Raleway-Black.ttf'); 
-}
-
-
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
@@ -32,12 +10,11 @@
 
 body, html {
 	height: 100%;
-	font-family: Raleway-SemiBold, sans-serif;
+	
 }
 
 /*---------------------------------------------*/
 a {
-	font-family: Raleway-SemiBold;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -62,7 +39,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 p {
-	font-family: Raleway-SemiBold;
 	font-size: 14px;
 	line-height: 1.7;
 	color: #666666;
@@ -184,7 +160,6 @@ iframe {
 .contact100-form-title {
   width: 100%;
   display: block;
-  font-family: Raleway-Black;
   font-size: 30px;
   color: #333333;
   line-height: 1.2;
@@ -211,7 +186,6 @@ iframe {
 
 
 .label-input100 {
-  font-family: Raleway-SemiBold;
   font-size: 13px;
   color: #555555;
   line-height: 1.5;
@@ -225,7 +199,6 @@ iframe {
   display: block;
   width: 100%;
   background: transparent;
-  font-family: Raleway-SemiBold;
   font-size: 18px;
   color: #333333;
   line-height: 1.2;
@@ -302,7 +275,6 @@ textarea.input100 {
 }
 
 .contact100-form-btn {
-  font-family: Raleway-Bold;
   font-size: 16px;
   color: #fff;
   line-height: 1.2;
